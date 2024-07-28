@@ -1,0 +1,148 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
+}
+
+.password .item {
+    font-size: 25px;
+    color: grey;
+    margin: 10px;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+body {
+    background-color: #111016;
+    size: 16px;
+    color: #E7E6EE;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 400px;
+    width: 35%;
+}
+
+.password,
+.body {
+    background-color: #24232B;
+    padding: 10px 20px 10px 20px;
+}
+
+.length {
+    display: flex;
+    justify-content: space-between;
+}
+
+.file,
+.counter {
+    color: #A4FFAF;
+}
+
+.progress {
+    display: flex;
+}
+
+.bar {
+    list-style: none;
+    height: 25px;
+    width: 08px;
+    border: 2px solid white;
+    margin-right: 8px;
+
+}
+
+.level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111016;
+    padding: 10px 20px 10px 20px;
+}
+
+.generate {
+    display: flex;
+    background-color: #A4FFAF;
+    color: #111016;
+    justify-content: center;
+    padding: 15px 0 15px 0;
+    margin-top: 30px;
+    border: 1px solid #A4FFAF;
+    cursor: pointer;
+}
+
+.generate:hover {
+    color: #A4FFAF;
+    background-color: #24232B;
+}
+
+.button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+.slidecontainer {
+    accent-color: #A4FFAF;
+    width: 100%;
+}
+
+input[type=checkbox] {
+    accent-color: #A4FFAF;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+}
+
+
+.etat {
+    padding-right: 15px;
+}
+
+.bar {
+    background-color: #A4FFAF;
+    border: none;
+
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+}

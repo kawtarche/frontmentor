@@ -16,6 +16,6 @@ https://fonts.google.com/specimen/Roboto
 ### colors:
 - accent: (green) ```#A4FFAF```
 - background: (black) ```#111016```
-- primary: (black clair) ```#111016```
+- primary: (black clair) ```#24232B```
 - text: ```#E7E6EE``` (normal)
 - text-accent: ```#56555D```

@@ -5,9 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./script.js">
 </head>
 
 <body>
+    <section class="container">
+        <h1 class="title">Password Generator</h1>
+        <div class="password">
+            <p class="item">P4$5W0rD!</p>
+            <span class="material-symbols-outlined file">file_copy</span>
+        </div>
+
+        <div class="body">
+            <div class="length">
+                <p class="character">Character Length</p>
+                <p class="counter">0</p>
+            </div>
+            <input class="slidecontainer" type="range" min="8" max="32" value="15">
+            <ul class="list">
+                <li class="item">
+                    <input type="checkbox" id="one" name="scales" checked />
+                    <label for="one">Include Uppercase Letters</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="two" name="scales" checked />
+                    <label for="two">Include Lowercase Letters</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="three" name="scales" checked />
+                    <label for="three">Include Numbers</label>
+                </li>
+                <li class="item">
+                    <input type="checkbox" id="four" name="scales" checked />
+                    <label for="four">Include Symbols</label>
+                </li>
+            </ul>
+
+            <div class="level">
+                <p class="degree">STRENGTH</p>
+                <div class="progress">
+                    <p class="etat">STRONG</p>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <div class="generate">
+                <button class=button type="button">GENERATE</button>
+                <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
 
 </body>
 
